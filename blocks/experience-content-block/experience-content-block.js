@@ -4,9 +4,8 @@ export default function decorate(block) {
 
   if (!textContent || !imageContent) return;
 
-  const content = document.createElement('div');
-  content.className = 'experience-content-block-layout';
-  content.append(textContent, imageContent);
-
-  block.replaceChildren(content);
+  const layout = document.createElement('div');
+  layout.className = 'experience-content-block-layout';
+  layout.append(textContent, imageContent);
+  block.replaceChildren(layout);
 }

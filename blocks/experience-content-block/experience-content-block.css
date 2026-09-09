@@ -10,8 +10,7 @@
   gap: 1.5rem;
 }
 
-.experience-content-block .cb-text-content,
-.experience-content-block .cb-image-content {
+.experience-content-block .cb-content {
   min-width: 0;
 }
 
@@ -31,7 +30,7 @@
   object-fit: cover;
 }
 
-.experience-content-block .cb-text-content a {
+.experience-content-block a {
   color: #0070ad;
   font-weight: 700;
 }
