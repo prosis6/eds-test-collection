@@ -1,0 +1,5 @@
+sitemaps:
+  sitemap1:
+    origin: https://fake-domain.com  # Замените на ваш продакшн-домен
+    source: /query-index.json
+    destination: /sitemap-en.xml
