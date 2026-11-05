@@ -1,0 +1,7 @@
+sitemaps:
+  main-sitemap:
+    source: /query-index.json
+    destination: /sitemap-2.xml
+    origin: https://fake-domain.com
+    lastmod: YYYY-MM-DD
+    extension: .html
